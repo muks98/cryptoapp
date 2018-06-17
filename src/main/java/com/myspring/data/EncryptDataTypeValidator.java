@@ -1,13 +1,12 @@
 package com.myspring.data;
 
-import javax.crypto.Cipher;
-
+import com.myspring.service.EncryptOptions;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import com.myspring.service.EncryptOptions;
+import javax.crypto.Cipher;
 
 @Component
 public class EncryptDataTypeValidator implements Validator{
